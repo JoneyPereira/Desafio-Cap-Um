@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: test
+  jpa:
+    open-in-view: false
+    database-platform: 'org.hibernate.dialect.H2Dialect'
+    defer-datasource-initialization: true
+
